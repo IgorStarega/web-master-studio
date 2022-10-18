@@ -1,24 +1,24 @@
 body{
-    background-image: linear-gradient(red, blue);
+    background: whitesmoke;
 }
-h1{
+.main-title{
     font-weight: bold;
 }
-h2{
+.title{
     font-style: italic;
     color: darkgrey;
 }
 div{
     padding: 30px;
 }
-p{
+.description{
     font-weight: bold;
     color: rgb(72, 11, 214);
 }
-ol{
+.films{
     border: dotted 5px black;
 }
-li{
+.e-list{
     font-weight: bold;
     font-style: initial;
 }
