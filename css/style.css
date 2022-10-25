@@ -1,24 +1,56 @@
 body{
-    background: whitesmoke;
-}
-.main-title{
-    font-weight: bold;
+    background: #d580ff;
+    margin: 0;
+    padding: 0;
 }
 .title{
     font-style: italic;
-    color: darkgrey;
+    color: gray;
 }
 div{
     padding: 30px;
 }
 .description{
     font-weight: bold;
-    color: rgb(72, 11, 214);
+    color: #7700b3;
 }
 .films{
-    border: dotted 5px black;
+    border: solid 2px #3c00b3;
 }
 .e-list{
     font-weight: bold;
     font-style: initial;
+    color: #7700b3;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+.navigation{
+    background: #FF00FF;
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+.footer{
+    background: #d580ff;
+}
+.title{
+    font-weight: normal;
+    font-size: 28px;
+
+}
+.subtitle{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.full-column{
+    width: 100%;
+    box-sizing: border-box;
+}
+.half-column{
+    width: 49.75%;
+    box-sizing: border-box;
+    display: inline-block;
 }

@@ -1,5 +1,8 @@
+body{
+    background: #7FFFD4;
+}
 .post{
-    background: rgb(209, 27, 27);
+    background: #eabfff;
     border-radius: 45px;
     width: 700px;
     padding: 15px;
