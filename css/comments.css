@@ -1,0 +1,24 @@
+.comment{
+    background: #d580ff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.comment:hover{
+    background: #FF00FF;
+}
+.title{
+    margin: 0;
+}
+.user-name{
+    padding: 3px;
+    border: solid 1px black;
+}
+input:focus{
+    border-color:   black;
+    border-width: 3px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
