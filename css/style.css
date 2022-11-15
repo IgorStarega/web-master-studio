@@ -1,5 +1,5 @@
 body{
-    background: #d580ff;
+    background: #fff;
     margin: 0;
     padding: 0;
 }
@@ -12,15 +12,15 @@ div{
 }
 .description{
     font-weight: bold;
-    color: #7700b3;
+    color: black;
 }
 .films{
-    border: solid 2px #3c00b3;
+    border: solid 2px black;
 }
 .e-list{
     font-weight: bold;
     font-style: initial;
-    color: #7700b3;
+    color: black;
 }
 .container{
     margin-left: auto;
@@ -28,13 +28,13 @@ div{
     width: 850px;
 }
 .navigation{
-    background: #FF00FF;
-    color: black;
+    background: #3333ff;
+    color: #fff;
     padding: 5px;
     text-align: center;
 }
 .footer{
-    background: #d580ff;
+    background: #fff;
 }
 .title{
     font-weight: normal;
@@ -53,4 +53,17 @@ div{
     width: 49.75%;
     box-sizing: border-box;
     display: inline-block;
+}
+.navigation{
+    padding: 5px;
+    text-align: center;
+}
+.nav-item{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-item:hover{
+    background: gray;
 }

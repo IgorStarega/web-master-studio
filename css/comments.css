@@ -1,10 +1,10 @@
 .comment{
-    background: #d580ff;
+    background: #fff;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .comment:hover{
-    background: #FF00FF;
+    background: #fff;
 }
 .title{
     margin: 0;
