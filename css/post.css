@@ -1,5 +1,6 @@
+@import "variable.css";
 body{
-    background: #fff;
+    background: var(--primary-background);
 }
 .post{
     background: #afafaf;

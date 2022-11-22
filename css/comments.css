@@ -1,10 +1,11 @@
+@import "variable.css";
 .comment{
-    background: #fff;
+    background: var(--primary-background);
     margin-top: 15px;
     margin-bottom: 15px;
 }
 .comment:hover{
-    background: #fff;
+    background: var(--primary-colord);
 }
 .title{
     margin: 0;

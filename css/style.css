@@ -1,5 +1,6 @@
+@import "variable.css";
 body{
-    background: #fff;
+    background: var(--primary-background);
     margin: 0;
     padding: 0;
 }
@@ -28,13 +29,13 @@ div{
     width: 850px;
 }
 .navigation{
-    background: #3333ff;
+    background: var(--secondary-color);
     color: #fff;
     padding: 5px;
     text-align: center;
 }
 .footer{
-    background: #fff;
+    background: var(--primary-background);
 }
 .title{
     font-weight: normal;
@@ -65,5 +66,5 @@ div{
     color: #fff;
 }
 .nav-item:hover{
-    background: gray;
+    background: var(--primary-background);
 }
